@@ -42,7 +42,7 @@
 }
 
 .sidebar__stats {
-  padding: 10px;
+  padding: 10px 0px;
   margin-bottom: 10px;
   border: 1px solid lightgray;
   background-color: white;
@@ -51,9 +51,13 @@
 }
 
 .sidebar__stat {
-  margin-top: 10px;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
+}
+
+.sidebar__stat:hover {
+  background-color: whitesmoke;
 }
 
 .sidebar__stat > p {
@@ -81,10 +85,10 @@
     display: flex;
     font-size: 13px;
     color: gray;
-    font-weight: bolder;
+    font-weight: 500;
     cursor: pointer;
     margin-bottom: 5px;
-    padding: 5px;
+    padding: 1px;
 }
 
 .sidebar__bottom > p {

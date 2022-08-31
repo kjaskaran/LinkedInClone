@@ -46,9 +46,9 @@ function SideBar() {
         <p>Recent</p>
         {recentItem("programming")}
         {recentItem("futurism")}
-        {recentItem("jobsincanada")}
+        {recentItem("canada")}
         {recentItem("innovation")}
-        {recentItem("reactjs")}
+        {recentItem("development")}
       </div>
     </div>
   );
