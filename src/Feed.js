@@ -56,7 +56,7 @@ function Feed() {
       <div className="feed__inputContainer">
         <div className="feed__input">
           <div className="feed__avatar">
-            <Avatar src={user.photoUrl}>{user.displayName[0]}</Avatar>
+            <Avatar src={user?.photoUrl}>{user?.displayName?.[0]}</Avatar>
           </div>
           <form>
             <input

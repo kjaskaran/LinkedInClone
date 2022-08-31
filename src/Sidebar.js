@@ -23,8 +23,8 @@ function SideBar() {
           src="https://th.bing.com/th/id/OIP.vuyRATxnOBN_B8r16BrGtwHaEK?pid=ImgDet&rs=1"
           alt="Laptop with a notepad and mouse"
         />
-        <Avatar className="sidebar__avatar" src={user.photoUrl}>
-          {user.displayName[0]}
+        <Avatar className="sidebar__avatar" src={user?.photoUrl}>
+          {user?.displayName?.[0]}
         </Avatar>
         <h2>{user.displayName}</h2>
         <h4>{user.email}</h4>
