@@ -19,3 +19,43 @@ You're about to initialize a Firebase project in this directory:
 
   C:\Users\kaurj\Desktop\LinkedIn with React\linkedin-clone
 
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-31T08:09:24.553Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-08-31T08:09:24.945Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-08-31T08:09:24.945Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project linkedin-clone-dc007 (linkedin-clone) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-08-31T08:10:13.037Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-08-31T08:10:13.191Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-08-31T08:10:13.192Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.9.3","browserURL":"https://www.gstatic.com/firebasejs/9.9.3/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.9.3/firebase.tgz"},"live":{"version":"9.9","browserURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.9.3/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.9.3/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.9.3/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.9.3/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.9.3/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.9.3/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.9.3/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.9.3/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.9.3/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.9.3/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.9.3/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.9.3/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.9.3/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.9.3/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.9.3/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.9.3/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.9.3/firebase-firestore.memory.js"}}
+[info] +  Wrote build/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\kaurj\Desktop\LinkedIn with React\linkedin-clone 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=986168579&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-08-31T08:10:23.748Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-08-31T08:10:23.748Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-08-31T08:10:24.015Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-08-31T08:10:24.015Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-08-31T08:10:24.027Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-08-31T08:10:24.272Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-08-31T08:10:24.272Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"kjaskaran","id":91239832,"node_id":"MDQ6VXNlcjkxMjM5ODMy","avatar_url":"https://avatars.githubusercontent.com/u/91239832?v=4","gravatar_id":"","url":"https://api.github.com/users/kjaskaran","html_url":"https://github.com/kjaskaran","followers_url":"https://api.github.com/users/kjaskaran/followers","following_url":"https://api.github.com/users/kjaskaran/following{/other_user}","gists_url":"https://api.github.com/users/kjaskaran/gists{/gist_id}","starred_url":"https://api.github.com/users/kjaskaran/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kjaskaran/subscriptions","organizations_url":"https://api.github.com/users/kjaskaran/orgs","repos_url":"https://api.github.com/users/kjaskaran/repos","events_url":"https://api.github.com/users/kjaskaran/events{/privacy}","received_events_url":"https://api.github.com/users/kjaskaran/received_events","type":"User","site_admin":false,"name":"Jaskaran Kaur","company":null,"blog":"","location":"Waterloo, ON","email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":3,"public_gists":0,"followers":0,"following":0,"created_at":"2021-09-23T04:40:56Z","updated_at":"2022-08-31T08:10:18Z","private_gists":0,"total_private_repos":5,"owned_private_repos":5,"disk_usage":5320,"collaborators":3,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as kjaskaran 
+[info] 
